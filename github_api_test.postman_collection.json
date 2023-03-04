@@ -122,7 +122,7 @@
 		"bearer": [
 			{
 				"key": "token",
-				"value": "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",
+				"value": "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",
 				"type": "string"
 			}
 		]
@@ -154,7 +154,7 @@
 		},
 		{
 			"key": "github_token",
-			"value": "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"
+			"value": "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"
 		},
 		{
 			"key": "counter",
