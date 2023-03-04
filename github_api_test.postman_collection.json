@@ -122,7 +122,7 @@
 		"bearer": [
 			{
 				"key": "token",
-				"value": "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",
+				"value": "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",
 				"type": "string"
 			}
 		]
@@ -151,10 +151,6 @@
 		{
 			"key": "username",
 			"value": "script091"
-		},
-		{
-			"key": "github_token",
-			"value": "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"
 		},
 		{
 			"key": "counter",
