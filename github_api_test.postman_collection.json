@@ -15,7 +15,7 @@
 						"exec": [
 							"let currentValue = pm.collectionVariables.get(\"counter\");\r",
 							"let nextValue = parseInt(currentValue) + 1;\r",
-							"pm.collectionVariables.set(\"counter\", parseInt(nextValue));"
+							"pm.collectionVariables.set(\"counter\", nextValue);"
 						],
 						"type": "text/javascript"
 					}
@@ -59,7 +59,7 @@
 							"let currentValue = pm.collectionVariables.get(\"counter\");\r",
 							"var jsonData = pm.response.json();\r",
 							"pm.test(\"Test Repository Name\", function() {\r",
-							"    pm.expect(jsonData[0].name).to.eql(\"test_\" + pm.collectionVariables.get(\"counter\"))});"
+							"    pm.expect(jsonData[1].name).to.eql(\"test_\" + pm.collectionVariables.get(\"counter\"))});"
 						],
 						"type": "text/javascript"
 					}
@@ -122,7 +122,7 @@
 		"bearer": [
 			{
 				"key": "token",
-				"value": "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",
+				"value": "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",
 				"type": "string"
 			}
 		]
@@ -154,7 +154,7 @@
 		},
 		{
 			"key": "github_token",
-			"value": "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"
+			"value": "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"
 		},
 		{
 			"key": "counter",
